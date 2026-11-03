@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-08-06 15:22:29.313057",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_details_section",
+  "variant_of",
+  "missing_variant_code",
+  "item_name",
+  "description",
+  "weight_per_unit",
+  "weight_uom",
+  "column_break_ktlc",
+  "attribute_json",
+  "created_item_code",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "variant_of",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Variant Of",
+   "read_only": 1
+  },
+  {
+   "fieldname": "missing_variant_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Missing Variant Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_ktlc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Item Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "weight_per_unit",
+   "fieldtype": "Float",
+   "label": "Weight Per Unit"
+  },
+  {
+   "fieldname": "weight_uom",
+   "fieldtype": "Link",
+   "label": "Weight UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "attribute_json",
+   "fieldtype": "Long Text",
+   "label": "Attribute JSON",
+   "read_only": 1
+  },
+  {
+   "fieldname": "created_item_code",
+   "fieldtype": "Data",
+   "label": "Created Item Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status",
+   "read_only": 1
+  },
+  {
+   "fieldname": "item_details_section",
+   "fieldtype": "Section Break",
+   "label": "Item Details"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-08-07 14:34:36.019170",
+ "modified_by": "Administrator",
+ "module": "Item Code Finder",
+ "name": "Missing Variant",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

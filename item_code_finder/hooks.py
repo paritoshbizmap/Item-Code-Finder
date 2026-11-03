@@ -2,13 +2,13 @@ app_name = "item_code_finder"
 app_title = "Item Code Finder"
 app_publisher = "bizmap"
 app_description = "icf"
-app_email = "paritosh.chaudhari@bizmap.in"
+app_email = "chaudhariparitosh9571@gmail.com"
 app_license = "mit"
 
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["erpnext"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [

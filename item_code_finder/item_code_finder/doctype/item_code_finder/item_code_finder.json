@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-08-06 15:30:31.868577",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "item_group",
+  "section_break_kdea",
+  "attribute_table",
+  "section_break_yfbj",
+  "add_missing_variant",
+  "column_break_jnqq",
+  "search_variants",
+  "section_break_ulkc",
+  "existing_variants",
+  "section_break_vntc",
+  "missing_variants"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_group",
+   "fieldtype": "Link",
+   "label": "Item Group",
+   "options": "Item Group"
+  },
+  {
+   "fieldname": "section_break_kdea",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attribute_table",
+   "fieldtype": "Table",
+   "label": "Attribute Table",
+   "options": "Variant Table"
+  },
+  {
+   "fieldname": "section_break_yfbj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "add_missing_variant",
+   "fieldtype": "Button",
+   "label": "Add Missing Variant"
+  },
+  {
+   "fieldname": "column_break_jnqq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "search_variants",
+   "fieldtype": "Button",
+   "label": "Search Variants"
+  },
+  {
+   "fieldname": "section_break_ulkc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "existing_variants",
+   "fieldtype": "Table",
+   "label": "Existing Variants",
+   "options": "Existing Variants"
+  },
+  {
+   "fieldname": "section_break_vntc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "missing_variants",
+   "fieldtype": "Table",
+   "label": "Missing Variants",
+   "options": "Missing Variant"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-08-06 15:33:42.932496",
+ "modified_by": "Administrator",
+ "module": "Item Code Finder",
+ "name": "Item Code Finder",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
